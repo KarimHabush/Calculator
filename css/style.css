@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+button{
+font-size: 18px;}
+
+.btn{
+	margin: 10px;
+	font-size: 30px;
+
+}
+
+.form-control{
+	color: #343a40;
+	border-color: #343a40;
+	font-size: 46px;
+}
+
+.calculator{
+	margin-top: 150px;
+	display: none;
+}
+
+.home h1{
+	margin: 300px;
+}
+
+#result{
+	margin-top: 100px;
+	display: none;
+}
