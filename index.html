@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+<nav class="navbar navbar-expand-md ml-md-auto  bg-dark navbar-dark fixed-top" dir="rtl" >
+      
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" dir="rtl">
+          <ul class="navbar-nav  dir="rtl"">
+            <li class="nav-item">
+              <a class="nav-link operations" href="#">Show operations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link showCalculator" href="#calculator">Calculator</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" id="back" href="#home">Home</a>
+            </li>  
+              
+          </ul>
+        </div>    
+    </nav>
+
+    <div class="home">
+      <div class="row">
+        <h1 class="col">HELLO WANNA SEE THE CALCULATOR? <a class="showCalculator" href="#calculator">DIVE IN!</a> </h1>
+      </div>
+      
+
+    </div>
+    <div class="container text-center calculator" id="calculator">
+      <input id="screen" class="form-control" type="text" name="screen"><br>
+      <div class="row">
+        <button class="col number btn btn-outline-dark" value="/" >/</button>
+        <button class="col number btn btn-outline-dark" value="7">7</button>
+        <button class="col number btn btn-outline-dark" value="8">8</button>
+        <button class="col number btn btn-outline-dark" value="9">9</button>
+      </div>
+      <div class="row">
+        <button class="col number btn btn-outline-dark" value="*">*</button>
+        <button class="col number btn btn-outline-dark" value="4">4</button>
+        <button class="col number btn btn-outline-dark" value="5">5</button>
+        <button class="col number btn btn-outline-dark" value="6">6</button>
+      </div>
+      <div class="row">
+        <button class="col number btn btn-outline-dark" value="-">-</button>
+        <button class="col number btn btn-outline-dark" value="1">1</button>
+        <button class="col number btn btn-outline-dark" value="2">2</button>
+        <button class="col number btn btn-outline-dark" value="3">3</button>
+      </div>
+      <div class="row">
+        <button class="col number btn btn-outline-dark" value="+">+</button>
+        <button class="col number btn btn-outline-dark" value=".">.</button>
+        <button class="col number btn btn-outline-dark" value="0">0</button>
+        <button id="clear" class="col btn btn-outline-dark">CLEAR</button>
+
+      </div>
+      <div class="row">
+        <button class="col-sm btn btn-outline-dark" id="equals" value="=">=</button>
+
+      </div>
+
+    </div>
+
+
+      <h1 id="result"></h1>  
+
+
+  	
+<script src="js/jquery-3.0.0.js"></script>
+
+    <script type="text/javascript" src="js/calculate.js"></script>
+  </body>
+</html>      
